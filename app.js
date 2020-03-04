@@ -6,6 +6,6 @@ const app = express();
 app.use(express.json());
 
 //Routes
-app.use("/api/v1/NA", NA);
+app.use("/api/v1/NA", NARouter);
 
 module.exports = app;

@@ -1,0 +1,24 @@
+{
+  "name": "node.js_template",
+  "version": "1.0.0",
+  "description": "Simple Node.js template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yordi23/Node.js_Template.git"
+  },
+  "author": "Yordi Ogando",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yordi23/Node.js_Template/issues"
+  },
+  "homepage": "https://github.com/Yordi23/Node.js_Template#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.3"
+  }
+}

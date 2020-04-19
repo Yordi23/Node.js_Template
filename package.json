@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/Yordi23/Node.js_Template#readme",
   "dependencies": {
+    "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.3"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.3",
+    "validator": "^13.0.0"
   }
 }

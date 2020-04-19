@@ -1,11 +1,13 @@
 const NA = require("./../models/NAModel");
+const catchAsync = require("./../utils/catchAsync");
+const AppError = require("./../utils/appError");
 
-exports.getAll = async (req, res) => {};
+exports.getAll = catchAsync(async (req, res) => {});
 
-exports.get = async (req, res) => {};
+exports.get = catchAsync(async (req, res) => {});
 
-exports.create = async (req, res) => {};
+exports.create = catchAsync(async (req, res) => {});
 
-exports.update = async (req, res) => {};
+exports.update = catchAsync(async (req, res) => {});
 
-exports.delete = async (req, res) => {};
+exports.delete = catchAsync(async (req, res) => {});
